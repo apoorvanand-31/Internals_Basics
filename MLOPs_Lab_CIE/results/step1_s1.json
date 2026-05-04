@@ -1,0 +1,20 @@
+{
+  "experiment_name": "pipewatch-corrosion-risk-score",
+  "models": [
+    {
+      "name": "Lasso",
+      "mae": 9.017925060136848,
+      "rmse": 9.622135155771565,
+      "r2": -0.1803130670270905
+    },
+    {
+      "name": "GradientBoosting",
+      "mae": 16.298784576317182,
+      "rmse": 17.692713121702482,
+      "r2": -2.990645784057055
+    }
+  ],
+  "best_model": "Lasso",
+  "best_metric_name": "mae",
+  "best_metric_value": 9.017925060136848
+}

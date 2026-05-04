@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/heartbeat",
+  "predict_endpoint": "/infer",
+  "port": 8888,
+  "health_response": {
+    "alive": true,
+    "service": "PipeWatch corrosion_risk_score API"
+  },
+  "test_input": {
+    "pipe_age_years": 19,
+    "flow_rate_lph": 1666.6,
+    "moisture_pct": 46.0,
+    "wall_thickness_mm": 9.6
+  },
+  "prediction": 53.730476953440075
+}

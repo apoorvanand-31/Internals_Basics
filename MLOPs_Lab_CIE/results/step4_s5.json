@@ -1,0 +1,23 @@
+{
+  "total_predictions": 51,
+  "mean_prediction": 47.422776587133086,
+  "drift_detected": true,
+  "alerts": [
+    {
+      "feature": "pipe_age_years",
+      "train_mean": 19.92,
+      "live_mean": 30.627450980392158,
+      "shift": 10.707450980392156,
+      "threshold": 10.09,
+      "status": "ALERT"
+    },
+    {
+      "feature": "moisture_pct",
+      "train_mean": 50.224000000000004,
+      "live_mean": 76.48999386213492,
+      "shift": 26.26599386213492,
+      "threshold": 21.5,
+      "status": "ALERT"
+    }
+  ]
+}
